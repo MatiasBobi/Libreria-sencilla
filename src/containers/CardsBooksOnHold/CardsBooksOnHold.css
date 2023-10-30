@@ -1,0 +1,24 @@
+.book_onhold{
+    width: 200px;
+    height: 250px;
+    position: relative;
+}
+.book_onhold img{
+    width: 200px;
+    height: 250px;
+}
+.book_onhold button{
+    position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 3px 20px;
+	background-color: rgb(167, 102, 102);
+    border: 1px solid #fff;
+	color: white;
+	margin-right: 5px;
+	font-size: 2rem;
+	margin-bottom: 5px;
+	cursor: pointer;
+	transition: 0.2s background-color;
+	border-radius: 10px;
+}
